@@ -1,0 +1,36 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+    background-color: rgb(61, 59, 59);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 300px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    padding: 30px;
+}
+.customer{
+    background-color: #000;
+    padding: 20px;
+    border-radius: 15px; 
+}
+.admin{
+    background-color: #000;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px; 
+}
+.options{
+    display: flex;
+    
+}
